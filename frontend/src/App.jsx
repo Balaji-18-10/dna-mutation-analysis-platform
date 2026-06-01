@@ -190,7 +190,7 @@ const selectedGeneInfo = geneInfo[geneSymbol];
     try {
       if (isLogin) {
         const response = await axios.post(
-          "http://127.0.0.1:8000/login",
+          "https://dna-mutation-backend-37fm.onrender.com/login",
           {
             username,
             password,
@@ -218,7 +218,7 @@ const selectedGeneInfo = geneInfo[geneSymbol];
         }
       } else {
         const response = await axios.post(
-          "http://127.0.0.1:8000/register",
+          "https://dna-mutation-backend-37fm.onrender.com/register",
           {
             username,
             password,
@@ -270,7 +270,7 @@ setIsLogin(true);
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/predict",
+        "https://dna-mutation-backend-37fm.onrender.com/predict",
         {
           mutation_type: mutationType,
           gene_symbol: geneSymbol,
@@ -307,7 +307,7 @@ setIsLogin(true);
 
   const downloadReport = async () => {
     const response = await axios.post(
-      "http://127.0.0.1:8000/download-report",
+      "https://dna-mutation-backend-37fm.onrender.com/download-report",
       {
         mutation_type: mutationType,
         gene_symbol: geneSymbol,
