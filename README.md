@@ -160,7 +160,7 @@ GitHub:
 https://github.com/Balaji-18-10
 
 LinkedIn:
-(Add your LinkedIn profile)
+https://www.linkedin.com/in/balaji-engr
 
 ---
 
