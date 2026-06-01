@@ -5,10 +5,10 @@ A full-stack AI-powered web application that predicts the clinical significance 
 ## 🚀 Live Demo
 
 Frontend:
-https://YOUR-VERCEL-URL.vercel.app
+https://dna-mutation-analysis-platform.vercel.app/
 
 Backend API:
-https://YOUR-RENDER-URL.onrender.com
+https://dna-mutation-backend-37fm.onrender.com
 
 ---
 
